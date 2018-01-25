@@ -24,10 +24,10 @@ namespace Demo
         }
         private void btnTru_Click(object sender, EventArgs e)
         {
+	   if(a > 0)
             double a = double.Parse(txtA.Text);
             double b = double.Parse(txtB.Text);
             double c = a - b;
             txtKetQua.Text = c.ToString();
-        }
-    }
+        }    }
 }
